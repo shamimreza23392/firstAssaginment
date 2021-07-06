@@ -34,9 +34,12 @@ span{
     width: 50%;
 }
 .header-img{
+    background-position: 242px;
+    background-size: 379px;
+    background-repeat: no-repeat;
     background-image: url(images/Group\ 8447.png);
-    padding-left: 179px;
-    padding-top: 60px;
+    padding-left: 181px;
+    padding-top: 79px;
 }
 .header-img-man{
     
@@ -81,15 +84,22 @@ span{
     color: wheat;
 }
 .recipics{
-
+    margin-top: 64px;
 }
 .recipics-top{
     text-align: center;
 }
+.recipics-middle{
+    display: flex;
+}
+.recipics-middle-area{
+    margin-left: 87px;
+}
 .recipics-middle-first{
     width: 332px;
     height: 357px;
-    border: 1px solid black;
+    box-shadow:0 4px 8px 0 rgba(112, 109, 109, 0.986), 0 6px 20px 0 rgba(151, 155, 147, 0.973);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 13px;
 
 }
@@ -105,4 +115,24 @@ span{
 }
 .recipics-middle-first-area-text{
 
+}
+.recipies-bottom-area{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow:0 4px 8px 0 rgba(112, 109, 109, 0.986), 0 6px 20px 0 rgba(151, 155, 147, 0.973);
+    margin: 87px;
+    
+}
+.recipies-bottom-first{
+    display: flex;
+}
+.recipies-bottom-element{
+    margin-left: 160px;
+    line-height: 16px;
+}
+.footer-area{
+    padding: 3px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
 }
