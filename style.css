@@ -20,8 +20,6 @@ span{
 }
 .header-text-a{
     margin-top: 69px;
-    
-    
     font-weight: 700;
     background-image: linear-gradient(orange, black);
     padding: 10px 34px;
@@ -43,4 +41,42 @@ span{
 .header-img-man{
     
     width: 476px;
+}
+.about-area{
+    display: flex;
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    
+}
+.about-img-area{
+    width: 50%;
+}
+.about-img{
+    height: 395px;
+    padding-top: 50px;
+}
+
+.about-text-area{
+    width: 50%;
+}
+.about-text{
+    padding-top: 108px;
+    padding-left: 50px;
+}
+.about-text h3{
+    font-size: 32px;
+}
+.about-a{
+    margin-top: 59px;
+    margin-left: 19px;
+    font-weight: 700;
+    padding: 10px 34px;
+    background-image: linear-gradient(orange, black);
+    width: 96px;
+    border-radius: 7px;
+}
+
+.about-a a{
+    text-decoration: none;
+    color: wheat;
 }
