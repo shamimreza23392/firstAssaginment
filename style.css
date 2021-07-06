@@ -80,3 +80,29 @@ span{
     text-decoration: none;
     color: wheat;
 }
+.recipics{
+
+}
+.recipics-top{
+    text-align: center;
+}
+.recipics-middle-first{
+    width: 332px;
+    height: 357px;
+    border: 1px solid black;
+    border-radius: 13px;
+
+}
+.recipics-middle-first-area{
+    padding: 15px;
+}
+.recipics-middle-first-area-img img{
+    height: 178px;
+    width: 301px;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+}
+.recipics-middle-first-area-text{
+
+}
